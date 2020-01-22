@@ -26,11 +26,15 @@ $(document).ready(function() {
 	    $("P").css("color", "red");
     });
 
-    $("h2").hover(function() {
-	    $("h2").css("color", "lightblue");
+    $("h2").hover(
+        function(){
+        $("h2").css("color", "lightblue");
+        },
+        function(){
+        $("h2").css("color", "black");
     });
 
-    $(".html").hover(
+    $("h2").hover(
         function(){
         $(this).css("font-size", "150%");
         },
