@@ -20,5 +20,32 @@ $(document).ready(function() {
 	  	$(".stream3").addClass('highlight_stream');
 	});
 
+    // Challenge start at this point
+
+    $("P").click(function() {
+	    $("P").css("color", "red");
+    });
+
+    $("h2").hover(function() {
+	    $("h2").css("color", "lightblue");
+    });
+
+    $(".html").hover(
+        function(){
+        $(this).css("font-size", "150%");
+        },
+        function(){
+        $(this).css("font-size", "100%");
+    });
+
+    $(".bottom_button").mouseenter(function() {
+	    $("body").css("background-color", "black");
+    });
+
+    $(".bottom_button").mouseleave(function() {
+	    $("body").css("background-color", "gray");
+    });
+
+
 
 }); 
