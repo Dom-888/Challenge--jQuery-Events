@@ -68,5 +68,15 @@ $(document).ready(function() {
         $("#python p").slideToggle(500);
     });
 
+    //Fifth Challenge
+
+    $("#jquery button").mouseenter(function() {
+	    $(this).fadeTo(500, .5);
+    });
+
+    $("#jquery button").mouseleave(function() {
+	    $(this).fadeTo(500, 1);
+    });
+
 
 }); 
