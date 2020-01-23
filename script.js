@@ -20,7 +20,7 @@ $(document).ready(function() {
 	  	$(".stream3").addClass('highlight_stream');
 	});
 
-    // Challenge start at this point
+    //First Challenge 
 
     $("P").click(function() {
 	    $("P").css("color", "red");
@@ -50,6 +50,11 @@ $(document).ready(function() {
 	    $("body").css("background-color", "gray");
     });
 
+    //Second Challenge 
+
+    $("button:first").click(function(){
+        $(this).hide(500);
+    });
 
 
 }); 
