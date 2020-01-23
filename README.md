@@ -16,3 +16,9 @@
 
 - Edit your html file to change all the \<a> tags to \<button> elements. Don’t forget the closing tag and to remove the href attribute.
 - Make the first button hide when clicked.
+
+<br>
+
+## Third Challenge
+
+- When the second button is clicked, the paragraph above vanishes, when the button is clicked again, the paragraph reappears.
