@@ -1,4 +1,4 @@
-# Contains three Codeinstitute challenges designed to explore jQuery events
+# Contains five Codeinstitute challenges designed to explore jQuery events
 
 <br>
 
@@ -22,3 +22,15 @@
 ## Third Challenge
 
 - When the second button is clicked, the paragraph above vanishes, when the button is clicked again, the paragraph reappears.
+
+<br>
+
+## Forth Challenge
+
+- Use the slideToggle function on the third button to make the paragraph above vanish and reappear
+
+<br>
+
+## Fifth Challenge
+
+- Use fadeTo in conjunction with mouseenter and mouseleave to modify the forth button. Fade to 50% opacity on mouseenter and fade back to 100% on mouseleave
