@@ -62,5 +62,11 @@ $(document).ready(function() {
         $("#mysql p").toggle(500);
     });
 
+    // Forth Challenge
+
+    $("#python button").click(function(){
+        $("#python p").slideToggle(500);
+    });
+
 
 }); 
