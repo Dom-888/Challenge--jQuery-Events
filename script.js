@@ -56,5 +56,11 @@ $(document).ready(function() {
         $(this).hide(500);
     });
 
+    // Third Challenge
+
+    $("#mysql button").click(function(){
+        $("#mysql p").toggle(500);
+    });
+
 
 }); 

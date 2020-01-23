@@ -1,4 +1,4 @@
-# Contains two Codeinstitute challenge designed to explore jQuery events
+# Contains three Codeinstitute challenges designed to explore jQuery events
 
 <br>
 
